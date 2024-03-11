@@ -3,13 +3,13 @@ public:
     int strStr(string haystack, string needle) {
      int key = haystack.find(needle);
      if (key < 0)
-     {
-         return -1;
-     }
+        {
+            return -1;
+        }
      else
-     {
-         return key;
-     }
+        {
+            return key;
+        }
 
     }
 };
